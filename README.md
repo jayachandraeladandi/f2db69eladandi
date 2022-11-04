@@ -1,6 +1,6 @@
 # f2wb69eladandi
 webapplications
-https://f2wb69eladandi.onrender.com/
+https://f2db69eladandi.onrender.com
 
 class : vegetables
 
