@@ -1,8 +1,16 @@
+const vegetables = require('../models/vegetables');
 var Costume = require('../models/vegetables'); 
  
-// List of all vegetables
-exports.vegetables_list = function(req, res) { 
-    res.send('NOT IMPLEMENTED: vegetables list'); 
+// List of all vegetables 
+exports.vegetables_list = async function(req, res) { 
+    try{ 
+        thevegetables = await vegetables.find(); 
+        res.send(thevegetables); 
+    } 
+    catch(err){ 
+        res.status(500); 
+        res.send(`{"error": ${err}}`); 
+    }   
 }; 
  
 // for a specific vegetables. 
