@@ -5,5 +5,5 @@ const vegetablesSchema = mongoose.Schema({
     vegetableColour: String
 })
 
-module.exports = mongoose.model("Vegetables",
+module.exports = mongoose.model("vegetables",
     vegetablesSchema) 

@@ -26,10 +26,16 @@ exports.vegetables_view_all_Page = async function(req, res) {
 }; 
  
 // for a specific vegetables. 
-exports.vegetables_detail = function(req, res) { 
-    res.send('NOT IMPLEMENTED: vegetables detail: ' + req.params.id); 
-}; 
- 
+exports.vegetables_detail = async function(req, res) {
+    console.log("detail" + req.params.id)
+    try {
+    result = await Vegetables.findById( req.params.id)
+    res.send(result)
+    } catch (error) {
+    res.status(500)
+    res.send(`{"error": document for id ${req.params.id} not found`);
+    }
+    };
 // Handle vegetables create on POST. 
 // Handle Costume create on POST. 
 exports.vegetables_create_post = async function(req, res) { 
@@ -58,7 +64,23 @@ exports.vegetables_delete = function(req, res) {
 }; 
  
 // Handle vegetables update form on PUT. 
-exports.vegetables_update_put = function(req, res) { 
-    res.send('NOT IMPLEMENTED: vegetables update PUT' + req.params.id); 
-}; 
+exports.vegetables_update_put = async function(req, res) {
+    console.log(`update on id ${req.params.id} with body
+    ${JSON.stringify(req.body)}`)
+    try {
+    let toUpdate = await Vegetables.findById( req.params.id)
+    // Do updates of properties
+    if(req.body.vegetableName)
+    toUpdate.vegetableName = req.body.vegetableName;
+    if(req.body.vegetableCost) toUpdate.vegetableCost = req.body.vegetableCost;
+    if(req.body.vegetableColour) toUpdate.vegetableColour = req.body.vegetableColour;
+    let result = await toUpdate.save();
+    console.log("Sucess " + result)
+    res.send(result)
+    } catch (err) {
+    res.status(500)
+    res.send(`{"error": ${err}: Update for id ${req.params.id}
+    failed`);
+    }
+    };
 
