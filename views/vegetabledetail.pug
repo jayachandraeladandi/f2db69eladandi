@@ -1,20 +1,23 @@
 extends layout
 block content
  h1= title
- - let vegetableid = toShow._id
- - let vegetableName = toShow.vegetableName
- - let vegetableCost = toShow.vegetableCost
- - let vegetableColour = toShow.vegetableColour
- div
-  div.row
-  div(class='vegetableAttr mr-3') Vegetableid ID is:
-  div #{vegetableid}
-  div.row
-  div(class='vegetableAttr mr-3') vegetable Name is:
-  div #{vegetableName}
-  div.row
-  div(class='vegetableAttr mr-3')  Vegetable Cost is:
-  div #{vegetableCost}
-  div.row
-  div(class='vegetableAttr mr-3') vegetable Colour is:
-  div #{vegetableColour}
+ if (toShow == null)
+   h2 No instance to show Detail
+ else
+  - let vegetableid = toShow._id
+  - let vegetableName = toShow.vegetableName
+  - let vegetableCost = toShow.vegetableCost
+  - let vegetableColour = toShow.vegetableColour
+  div
+   div.row
+   div(class='vegetableAttr mr-3') Vegetableid ID is:
+   div #{vegetableid}
+   div.row
+   div(class='vegetableAttr mr-3') vegetable Name is:
+   div #{vegetableName}
+   div.row
+   div(class='vegetableAttr mr-3')  Vegetable Cost is:
+   div #{vegetableCost}
+   div.row
+   div(class='vegetableAttr mr-3') vegetable Colour is:
+   div #{vegetableColour}

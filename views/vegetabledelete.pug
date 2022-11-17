@@ -1,6 +1,9 @@
 extends layout
 block content
  h1= title
+ if (toShow == null)
+   h2 No instance to delete
+ else
  - let vegetableid = toShow._id
  - let vegetableName = toShow.vegetableName
  - let vegetableCost = toShow.vegetableCost
