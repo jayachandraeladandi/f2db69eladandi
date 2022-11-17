@@ -18,5 +18,8 @@ router.get('/', vegetables_controlers.vegetables_view_all_Page );
 /* GET detail vegetables page */
 router.get('/detail', vegetables_controlers.vegetables_view_one_Page);
 
+/* GET create vegetables page */
+router.get('/create', vegetables_controlers.vegetables_create_Page);
+
 
 module.exports = router;
