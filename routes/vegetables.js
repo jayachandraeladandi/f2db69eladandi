@@ -21,5 +21,8 @@ router.get('/detail', vegetables_controlers.vegetables_view_one_Page);
 /* GET create vegetables page */
 router.get('/create', vegetables_controlers.vegetables_create_Page);
 
+/* GET create update page */
+router.get('/update', vegetables_controlers.vegetables_update_Page);
+
 
 module.exports = router;
