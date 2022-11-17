@@ -9,5 +9,30 @@ a {
 
 .vegetableAttr {
   background-color: aquamarine;
-  width: 120px;
+  text-align: center;
+  font-size: large;
+}
+ .rowAttr {
+  background-color: rgb(255, 210, 127);
+  text-align: center;
+  font-size: large;
  }
+
+ .rowAttr1 {
+  background-color: rgb(255, 127, 157);
+  text-align: center;
+  font-size: large;
+ }
+
+ .rowAttr2 {
+  background-color: rgb(214, 255, 127);
+  text-align: center;
+  font-size: large;
+ }
+
+ .rowAttr3 {
+  background-color: rgb(168, 127, 255);
+  text-align: center;
+  font-size: large;
+ }
+
