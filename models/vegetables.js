@@ -2,11 +2,15 @@ const mongoose = require("mongoose")
 const vegetablesSchema = mongoose.Schema({
     vegetableName: {
         type: String,
-        maxLength: 9
+        maxLength: 11
     },
 
     vegetableCost: Number,
-    vegetableColour: String
+    vegetableColour:{
+
+        type: String,
+        minLength: 4
+    }
 })
 
 module.exports = mongoose.model("vegetables",

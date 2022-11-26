@@ -2,13 +2,20 @@ extends layout
 
 block content
   h1= title
+  - let create = `dispatch(\"/vegetables/create\")`
+  button.btn( class="btn-primary ml-1", onclick= create) Create
   - var results = results
   div(class = 'container-fluid')
     div(class = 'row m-1')
      each item,index in results 
       - let destination = `dispatch(\"/vegetables/update?id=${item._id}\")`
+      - let detail = `dispatch(\"/vegetables/detail?id=${item._id}\")`
+      - let d = `dispatch(\"/vegetables/delete?id=${item._id}\")`
       div(class="row-sm-2", class="m-1") Item #{item.vegetableName}(#{item.vegetableCost}) is #{item.vegetableColour}
        button.btn( class="btn-primary ml-1", onclick= destination) Update
+       button.btn( class="btn-primary ml-1", onclick= detail) Detail
+       button.btn( class="btn-primary ml-1", onclick= d) Delete
+
   script.
    function dispatch(path){
     window.location.href=path

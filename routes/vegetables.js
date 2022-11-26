@@ -30,13 +30,13 @@ router.get('/', vegetables_controlers.vegetables_view_all_Page );
 router.get('/detail', vegetables_controlers.vegetables_view_one_Page);
 
 /* GET create vegetables page */
-router.get('/create', vegetables_controlers.vegetables_create_Page);
+router.get('/create',secured, vegetables_controlers.vegetables_create_Page);
 
 /* GET create update page */
 router.get('/update',secured, vegetables_controlers.vegetables_update_Page);
 
 /* GET delete vegetables page */
-router.get('/delete', vegetables_controlers.vegetables_delete_Page);
+router.get('/delete',secured, vegetables_controlers.vegetables_delete_Page);
 
 
 module.exports = router;
