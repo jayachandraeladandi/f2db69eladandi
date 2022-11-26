@@ -1,6 +1,10 @@
 const mongoose = require("mongoose")
 const vegetablesSchema = mongoose.Schema({
-    vegetableName: String,
+    vegetableName: {
+        type: String,
+        maxLength: 9
+    },
+
     vegetableCost: Number,
     vegetableColour: String
 })
