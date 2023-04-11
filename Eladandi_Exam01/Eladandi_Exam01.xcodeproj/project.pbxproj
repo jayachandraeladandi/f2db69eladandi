@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E776C929AE568F00069007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776C829AE568F00069007 /* AppDelegate.swift */; };
+		66E776CB29AE568F00069007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776CA29AE568F00069007 /* SceneDelegate.swift */; };
+		66E776CD29AE568F00069007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776CC29AE568F00069007 /* ViewController.swift */; };
+		66E776D029AE568F00069007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E776CE29AE568F00069007 /* Main.storyboard */; };
+		66E776D229AE569100069007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E776D129AE569100069007 /* Assets.xcassets */; };
+		66E776D529AE569100069007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E776D329AE569100069007 /* LaunchScreen.storyboard */; };
+		66E776E029AE569100069007 /* Eladandi_Exam01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776DF29AE569100069007 /* Eladandi_Exam01Tests.swift */; };
+		66E776EA29AE569100069007 /* Eladandi_Exam01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776E929AE569100069007 /* Eladandi_Exam01UITests.swift */; };
+		66E776EC29AE569100069007 /* Eladandi_Exam01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E776EB29AE569100069007 /* Eladandi_Exam01UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66E776DC29AE569100069007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E776BD29AE568E00069007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E776C429AE568F00069007;
+			remoteInfo = Eladandi_Exam01;
+		};
+		66E776E629AE569100069007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E776BD29AE568E00069007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E776C429AE568F00069007;
+			remoteInfo = Eladandi_Exam01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66E776C529AE568F00069007 /* Eladandi_Exam01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eladandi_Exam01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E776C829AE568F00069007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66E776CA29AE568F00069007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66E776CC29AE568F00069007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66E776CF29AE568F00069007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66E776D129AE569100069007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E776D429AE569100069007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66E776D629AE569100069007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E776DB29AE569100069007 /* Eladandi_Exam01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eladandi_Exam01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E776DF29AE569100069007 /* Eladandi_Exam01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eladandi_Exam01Tests.swift; sourceTree = "<group>"; };
+		66E776E529AE569100069007 /* Eladandi_Exam01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eladandi_Exam01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E776E929AE569100069007 /* Eladandi_Exam01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eladandi_Exam01UITests.swift; sourceTree = "<group>"; };
+		66E776EB29AE569100069007 /* Eladandi_Exam01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eladandi_Exam01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E776C229AE568F00069007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776D829AE569100069007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776E229AE569100069007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E776BC29AE568E00069007 = {
+			isa = PBXGroup;
+			children = (
+				66E776C729AE568F00069007 /* Eladandi_Exam01 */,
+				66E776DE29AE569100069007 /* Eladandi_Exam01Tests */,
+				66E776E829AE569100069007 /* Eladandi_Exam01UITests */,
+				66E776C629AE568F00069007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E776C629AE568F00069007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E776C529AE568F00069007 /* Eladandi_Exam01.app */,
+				66E776DB29AE569100069007 /* Eladandi_Exam01Tests.xctest */,
+				66E776E529AE569100069007 /* Eladandi_Exam01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E776C729AE568F00069007 /* Eladandi_Exam01 */ = {
+			isa = PBXGroup;
+			children = (
+				66E776C829AE568F00069007 /* AppDelegate.swift */,
+				66E776CA29AE568F00069007 /* SceneDelegate.swift */,
+				66E776CC29AE568F00069007 /* ViewController.swift */,
+				66E776CE29AE568F00069007 /* Main.storyboard */,
+				66E776D129AE569100069007 /* Assets.xcassets */,
+				66E776D329AE569100069007 /* LaunchScreen.storyboard */,
+				66E776D629AE569100069007 /* Info.plist */,
+			);
+			path = Eladandi_Exam01;
+			sourceTree = "<group>";
+		};
+		66E776DE29AE569100069007 /* Eladandi_Exam01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66E776DF29AE569100069007 /* Eladandi_Exam01Tests.swift */,
+			);
+			path = Eladandi_Exam01Tests;
+			sourceTree = "<group>";
+		};
+		66E776E829AE569100069007 /* Eladandi_Exam01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66E776E929AE569100069007 /* Eladandi_Exam01UITests.swift */,
+				66E776EB29AE569100069007 /* Eladandi_Exam01UITestsLaunchTests.swift */,
+			);
+			path = Eladandi_Exam01UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E776C429AE568F00069007 /* Eladandi_Exam01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E776EF29AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01" */;
+			buildPhases = (
+				66E776C129AE568F00069007 /* Sources */,
+				66E776C229AE568F00069007 /* Frameworks */,
+				66E776C329AE568F00069007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eladandi_Exam01;
+			productName = Eladandi_Exam01;
+			productReference = 66E776C529AE568F00069007 /* Eladandi_Exam01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66E776DA29AE569100069007 /* Eladandi_Exam01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E776F229AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01Tests" */;
+			buildPhases = (
+				66E776D729AE569100069007 /* Sources */,
+				66E776D829AE569100069007 /* Frameworks */,
+				66E776D929AE569100069007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E776DD29AE569100069007 /* PBXTargetDependency */,
+			);
+			name = Eladandi_Exam01Tests;
+			productName = Eladandi_Exam01Tests;
+			productReference = 66E776DB29AE569100069007 /* Eladandi_Exam01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66E776E429AE569100069007 /* Eladandi_Exam01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E776F529AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01UITests" */;
+			buildPhases = (
+				66E776E129AE569100069007 /* Sources */,
+				66E776E229AE569100069007 /* Frameworks */,
+				66E776E329AE569100069007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E776E729AE569100069007 /* PBXTargetDependency */,
+			);
+			name = Eladandi_Exam01UITests;
+			productName = Eladandi_Exam01UITests;
+			productReference = 66E776E529AE569100069007 /* Eladandi_Exam01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E776BD29AE568E00069007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					66E776C429AE568F00069007 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					66E776DA29AE569100069007 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 66E776C429AE568F00069007;
+					};
+					66E776E429AE569100069007 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 66E776C429AE568F00069007;
+					};
+				};
+			};
+			buildConfigurationList = 66E776C029AE568E00069007 /* Build configuration list for PBXProject "Eladandi_Exam01" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66E776BC29AE568E00069007;
+			productRefGroup = 66E776C629AE568F00069007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E776C429AE568F00069007 /* Eladandi_Exam01 */,
+				66E776DA29AE569100069007 /* Eladandi_Exam01Tests */,
+				66E776E429AE569100069007 /* Eladandi_Exam01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E776C329AE568F00069007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E776D529AE569100069007 /* LaunchScreen.storyboard in Resources */,
+				66E776D229AE569100069007 /* Assets.xcassets in Resources */,
+				66E776D029AE568F00069007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776D929AE569100069007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776E329AE569100069007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E776C129AE568F00069007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E776CD29AE568F00069007 /* ViewController.swift in Sources */,
+				66E776C929AE568F00069007 /* AppDelegate.swift in Sources */,
+				66E776CB29AE568F00069007 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776D729AE569100069007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E776E029AE569100069007 /* Eladandi_Exam01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E776E129AE569100069007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E776EC29AE569100069007 /* Eladandi_Exam01UITestsLaunchTests.swift in Sources */,
+				66E776EA29AE569100069007 /* Eladandi_Exam01UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66E776DD29AE569100069007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E776C429AE568F00069007 /* Eladandi_Exam01 */;
+			targetProxy = 66E776DC29AE569100069007 /* PBXContainerItemProxy */;
+		};
+		66E776E729AE569100069007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E776C429AE568F00069007 /* Eladandi_Exam01 */;
+			targetProxy = 66E776E629AE569100069007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66E776CE29AE568F00069007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E776CF29AE568F00069007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66E776D329AE569100069007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E776D429AE569100069007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E776ED29AE569100069007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66E776EE29AE569100069007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E776F029AE569100069007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eladandi_Exam01/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66E776F129AE569100069007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eladandi_Exam01/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66E776F329AE569100069007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eladandi_Exam01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eladandi_Exam01";
+			};
+			name = Debug;
+		};
+		66E776F429AE569100069007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eladandi_Exam01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eladandi_Exam01";
+			};
+			name = Release;
+		};
+		66E776F629AE569100069007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eladandi_Exam01;
+			};
+			name = Debug;
+		};
+		66E776F729AE569100069007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mwmissouri.edu.Eladandi-Exam01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eladandi_Exam01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E776C029AE568E00069007 /* Build configuration list for PBXProject "Eladandi_Exam01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E776ED29AE569100069007 /* Debug */,
+				66E776EE29AE569100069007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E776EF29AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E776F029AE569100069007 /* Debug */,
+				66E776F129AE569100069007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E776F229AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E776F329AE569100069007 /* Debug */,
+				66E776F429AE569100069007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E776F529AE569100069007 /* Build configuration list for PBXNativeTarget "Eladandi_Exam01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E776F629AE569100069007 /* Debug */,
+				66E776F729AE569100069007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E776BD29AE568E00069007 /* Project object */;
+}
